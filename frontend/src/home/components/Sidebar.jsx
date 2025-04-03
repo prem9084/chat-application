@@ -172,9 +172,7 @@ const Sidebar = ({ onSelectUser }) => {
                       </div>
                     </div>
                     <div className="flex flex-col flex-1">
-                      <p className="font-bold text-white-500">
-                        {user.username}
-                      </p>
+                      <p className="font-bold text-gray-950">{user.username}</p>
                     </div>
                   </div>
                   <div className="divider divide-solid px-3 h-[1px]"></div>
