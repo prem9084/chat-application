@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@plugin "daisyui";
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../public/bg.jpg");
@@ -7,12 +7,4 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-@layer utilities {
-  @media (min-width: 640px) {
-    .custom-class {
-      display: flex;
-    }
-  }
 }
